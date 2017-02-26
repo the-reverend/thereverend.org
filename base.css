@@ -1,0 +1,32 @@
+header, section, footer, aside, nav, article, figure { 
+	display: block; 
+}
+
+article {
+	font-family: 'Arial';
+	font-size: 15px;
+	min-width: 300px;
+	max-width: 1024px;
+}
+
+article ul {
+	margin: 0;
+	padding: 0;
+}
+
+article li {
+	width: 120px;
+	height: 230px;
+	display: inline;
+	text-align: center;
+	list-style-type: none;
+	border: 1px solid #000;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+}
+
+article img {
+	height: 165px;
+	width: 100px;
+}

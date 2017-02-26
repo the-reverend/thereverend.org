@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Beard Project</title>
+	<link rel="stylesheet" type="text/css" href="base.css" />
+</head>
+<body>
+
+<article>
+	<h1>The Beard Project</h1>
+	<p>This project is inspired by <a href="http://www.dyers.org/blog/beards/beard-types/" target="_self">Jon Dyer</a>. Special thanks to Curtis Eshleman for taking the photos.</p
+
+	<ul>
+		<script>
+			var names = ["Hollywoodian","Mutton Chops","A la Souvarov","French Fork",
+				"Handlebar and Chin Puff","Van Dyke","Friendly Mutton Chops","Balbo",
+				"Short Boxed Beard","Goatee","Chin Curtain","Hulihee",
+				"Petit Goatee","Franz Josef","Anchor","Napoleon III Imperial",
+				"Duck Tail","Fu Manchu","Old Dutch","Dali",
+				"Rap Industry Standard","Jack Sparrow","Klingon","Federation Standard",
+				"The Zappa","Soul Patch","Handlebar and Goatee","The Winnfield",
+				"Copstash","Pencil","Super Mario","Handlebar",
+				"The Mighty El Insecto","Miami Vice","Chin Pillow","Toothbrush"
+			];
+			for ( var i = 0; i < names.length; ++i ) {
+				var n = Math.floor( i / 4 + 1 ) *10 + i % 4 + 1;
+				document.write('<li><a name="'+n+'" href="#'+n+'" onmouseover="document.img'+n+'.src='
+					+ "'images/"+n+".gif';"
+					+ '" onmouseout="document.img'+n+'.src='
+					+ "'images/"+n+".jpg';"
+					+ '"><img src="images/'+n+'.jpg" name="img'+n+'" id="img'+n+'"></a><p>'+names[i]+'</p></li>');
+			}
+		</script>
+	</ul>
+</article>
+
+</body>
+</html>

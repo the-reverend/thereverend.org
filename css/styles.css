@@ -1,12 +1,15 @@
+body {
+	font-family: 'Arial';
+}
+
 header, section, footer, aside, nav, article, figure { 
 	display: block; 
+	min-width: 300px;
+	max-width: 1024px;
 }
 
 article {
-	font-family: 'Arial';
 	font-size: 15px;
-	min-width: 300px;
-	max-width: 1024px;
 }
 
 article ul {
@@ -29,4 +32,14 @@ article li {
 article img {
 	height: 165px;
 	width: 100px;
+}
+
+article a.tile img:last-child{display:none}
+article a.tile:hover img:first-child{display:none}
+article a.tile:hover img:last-child{display:inline-block}
+
+footer {
+	padding-top: 30px;
+	text-align: center;
+	clear: left;
 }

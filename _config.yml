@@ -1,0 +1,6 @@
+title: thereverend.org
+email: ronaldpwilson@gmail.com
+url: "https://www.thereverend.org"
+markdown: kramdown
+collections:
+- beards

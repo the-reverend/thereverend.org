@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<title>{% if page.title %} {{ page.title }} | {% endif %}thereverend.org</title>
+		<link rel="stylesheet" href="/css/styles.css" />
+	</head>
+	<body>
+		<div id="main">
+			<header>
+				<h1>thereverend.org</h1>
+			</header>
+			{{ content }}
+			<footer>
+				<p>&copy; Ron Wilson 2017 | All Rights Reserved</p>
+			</footer>
+		</div>
+	</body>
+</html>

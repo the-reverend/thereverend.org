@@ -5,7 +5,6 @@ body {
 header, section, footer, aside, nav, article, figure { 
 	display: block; 
 	min-width: 300px;
-	max-width: 1024px;
 }
 
 article {
